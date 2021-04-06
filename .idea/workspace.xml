@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="669c5c2d-51a3-4527-a604-d8c57db24683" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Feed.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Feed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TweetBox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TweetBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Widgets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Widjets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Post.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SidebarOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SidebarOptions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sidebarOption.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sidebarOption.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Feed.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feed.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Feed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TweetBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/TweetBox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TweetBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TweetBox.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1616314618268</updated>
       <workItem from="1616314625383" duration="1702000" />
-      <workItem from="1617610754462" duration="15106000" />
+      <workItem from="1617610754462" duration="15219000" />
+      <workItem from="1617727464920" duration="4456000" />
     </task>
     <task id="LOCAL-00001" summary="SideBar">
       <created>1617616814568</created>
@@ -93,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617616814570</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Tweet &amp; Widgets">
+      <created>1617627395180</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617627395180</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +103,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="SideBar" />
-    <option name="LAST_COMMIT_MESSAGE" value="SideBar" />
+    <MESSAGE value="Tweet &amp; Widgets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tweet &amp; Widgets" />
   </component>
 </project>
