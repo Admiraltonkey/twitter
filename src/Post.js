@@ -20,22 +20,22 @@ function Post({
     return (
         <div className='post'>
         <div className='post__avatar'>
-            <Avatar src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fvectors%2Favatar-icon-placeholder-1577909%2F&psig=AOvVaw3VzHFbbl_asQYyZu5ePRz3&ust=1617711463903000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPjo8fqK5-8CFQAAAAAdAAAAABAI'/>
+            <Avatar src={avatar}/>
         </div>
             <div className="post__body">
                 <div className="post__header">
                     <div className="post__headerText">
                         <h3>
-                            Reeaf Quzi{" "} <span className='post__headerSpecial'>
-                            <VerifiedUserIcon className='post_badge'/> @dmitryvorontsov
+                            {displayName}{" "} <span className='post__headerSpecial'>
+                            {verified && <VerifiedUserIcon className='post_badge'/>} @{userName}
                         </span>
                         </h3>
                     </div>
                     <div className="post__headerDescription">
-                        <p>My first Post</p>
+                        <p>{text}</p>
                     </div>
                 </div>
-                <img src='https://habrastorage.org/getpro/habr/post_images/289/59e/4de/28959e4de450ba38b84fd11c5b058570.gif ' alt=''/>
+                <img src={image} alt=''/>
                 <div className="post__footer">
     <ChatBubbleOutlineIcon fontSize='small'/>
     <RepeatIcon fontSize='small'/>
